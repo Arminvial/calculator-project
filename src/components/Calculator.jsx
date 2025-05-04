@@ -1,4 +1,4 @@
-"use client"; // چون این کامپوننت از هوک‌های React استفاده می‌کنه
+"use client";
 
 import { useDispatch, useSelector } from "react-redux";
 import { append, clear, calculate } from "@/redux/store";
